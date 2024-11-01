@@ -7,6 +7,7 @@
     <title>Ifeanyi Ekpunobi | Python Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500&display=swap"
@@ -28,21 +29,47 @@
     </nav>
 
     <header class="header" id="about">
-        <div class="header-bg"></div>
+        <div class="terminal-background"></div>
         <div class="container header-content">
-            <div class="profile-section">
-                <div class="profile-image">
-                    <img src="for_profile.jpg" alt="Ifeanyi Ekpunobi">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-button close"></span>
+                        <span class="terminal-button minimize"></span>
+                        <span class="terminal-button maximize"></span>
+                    </div>
+                    <div class="terminal-title">ifeanyi@portfolio: ~/about</div>
                 </div>
-                <div class="profile-text">
-                    <h1>IFEANYI EKPUNOBI</h1>
-                    <div class="title-bar"></div>
-                    <h2>Python Developer</h2>
-                    <p class="header-description">Creative problem solver specializing in Python
-                        development</p>
-                    <div class="contact-info">
-                        <a href="www.linkedin.com/in/ifeanyi-ekpunobi" class="contact-link">LinkedIn</a>
-                        <a href="mailto:francis4mary@gmail.com" class="contact-link">Email</a>
+                <div class="terminal-body">
+                    <div class="profile-section">
+                        <div class="profile-image">
+                            <img src="for_profile.jpg" alt="Ifeanyi Ekpunobi">
+                        </div>
+                        <div class="profile-text">
+                            <div class="terminal-prompt">
+                                <span class="prompt-symbol">$</span>
+                                <span class="typing-text"></span>
+                                <span class="cursor">|</span>
+                            </div>
+                            <div class="terminal-output">
+                                <pre><code class="python-output">
+class Developer:
+    def __init__(self):
+        self.name = "IFEANYI EKPUNOBI"
+        self.role = "Python Developer"
+        self.skills = ["Python", "Creative Writing", "Problem Solving"]
+                            </code></pre>
+                            </div>
+                            <div class="prose-output">
+                                "In the intersection of code and creativity,
+                                I craft solutions that bridge technical precision
+                                with artistic expression."
+                            </div>
+                            <div class="contact-info">
+                                <a href="www.linkedin.com/in/ifeanyi-ekpunobi" class="contact-link">LinkedIn</a>
+                                <a href="mailto:francis4mary@gmail.com" class="contact-link">Email</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
